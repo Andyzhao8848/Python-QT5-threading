@@ -1,4 +1,4 @@
-# queue_thread.py
+# queue_thread
 The module queue_thread.py can be used to create multi-threaded applications in python with QT5.
 
 ## Overview
