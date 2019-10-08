@@ -2,13 +2,14 @@
 The module queue_thread.py can be used to create multi-threaded applications in python with QT5.
 
 ## Overview
-A threaded QT5 application allows multiple processes to run concurrently without blocking the GUI. Here, an example is given of a GUI with threading in python-QT5. A fake image stream is generated from images inside the skimage.data module and optionally displayed to the screen. A good explanation of threading, and the preferred method of  threading in QT5 -- with working code -- can be found here:
+A threaded QT5 application allows multiple processes to run concurrently without blocking the GUI. A good explanation of threading, and the preferred method of  threading in QT5 -- with working code -- can be found here:
 
 https://www.learnpyqt.com/courses/concurrent-execution/multithreading-pyqt-applications-qthreadpool/
 
+Here, a more detailed example of that approach to threading is given with 'threaded_img_gui.py.'
 
 ## Examples: threaded_img_gui.py
-'threaded_img_gui.py' demonstrates threading with python-QT5. It is slightly more complicated that the examples in the link above. It is not optimized, but demonstrated the principle.
+'threaded_img_gui.py' demonstrates threading with python-QT5. A fake image stream is generated from images inside the skimage.data module and optionally displayed to the screen.
 
 The commands are:
 1.  Press 'start' to start reading images from the 'fakestream' to a queue.
