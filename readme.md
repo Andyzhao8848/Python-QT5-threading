@@ -85,7 +85,7 @@ These examples are not CPU intensive and probably do not need to be threaded. Bu
 ## Why three classes in QueueThreads?
 An informal explanation of the interaction of the three classes is given below.
 
-**QueueThreads** subclasses Qthreadpool. It is the 'threadpool' or manager (informally) that will launch the passed functions in new threads. The add_to_queue function allows the user to pass signals (as a string) and connect them to any slot (with a matching signature.)
+**QueueThreads** subclasses Qthreadpool. It is the 'threadpool' that will launch the passed functions in new threads. The add_to_queue function allows the user to pass signals (as a string) and connect them to any slot (with a matching signature.)
 
 **Worker** subclasses Qrunnable. The run method will be called automatically when the worker is started by the Qthreadpool. The callbacks are passed as kwargs inside the Worker class. These are then accessible inside the function.
 
