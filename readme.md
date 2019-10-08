@@ -82,7 +82,7 @@ for i in range(100):
 
 These examples are not CPU intensive and probably do not need to be threaded. But the concept of how to use threading to pass objects safely between threads was demonstrated.
 
-## Why three classes in QueueThreads?
+## Why three classes in queue_threads.py?
 An informal explanation of the interaction of the three classes is given below.
 
 **QueueThreads** subclasses Qthreadpool. It is the 'threadpool' that will launch the passed functions in new threads. The add_to_queue function allows the user to pass signals (as a string) and connect them to any slot (with a matching signature.)
