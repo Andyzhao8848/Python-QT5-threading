@@ -9,7 +9,7 @@ https://www.learnpyqt.com/courses/concurrent-execution/multithreading-pyqt-appli
 Here, a more detailed example of that approach to threading is given with 'threaded_img_gui.py.'
 
 ## Examples: threaded_img_gui.py
-'threaded_img_gui.py' demonstrates threading with python-QT5. A fake image stream is generated from images inside the skimage.data module and optionally displayed to the screen.
+'threaded_img_gui.py' demonstrates threading with python-QT5. Run the script 'threaded_img_gui.py' from an IDE or the command line. The only dependency is skimage. A fake image stream is generated from images inside the skimage.data module and optionally displayed to the screen. Adjust the 'delay' parameter (passed to the main function) to change the images faster.
 
 The commands are:
 1.  Press 'start' to start reading images from the 'fakestream' to a queue.
