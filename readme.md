@@ -18,8 +18,8 @@ The commands are:
 
 You will notice that the buttons in the GUI are still available while a several tasks are happening in the background. Open your system settings to see multi-threading at work.
 
-## Examples: color example
-To use this module, import QueueThreads and create a new instance. New processes can be launched with the add_to_queue method. Here is an example:
+## Examples: color_example.py
+A few variants of the example given in color_example.py are given below to explain the use of QueueThreads. After an instance of QueueThreads is made, new processes can be launched with the add_to_queue method:  
 
 ``` python
 import random
